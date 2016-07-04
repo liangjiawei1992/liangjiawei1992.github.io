@@ -84,57 +84,16 @@
 
 
 
-<meta name="description" content="node.js的优点
-Nodejs基于Javascript语言
-统一公共类库，代码标准化
-Nodejs选择了目前最快的浏览器内核V8做为执行引擎
-Nodejs的社区非常活跃
-
-NODE概念
-什么是回调
-异步编程基本的方法，需要异步处理的时候一般采用后续传递的方式。
-将后续逻辑作为函数参数中作为起始函数的参数。
-
-同步和异步
-同步是指发起调用之后主线程只能挂起,调用者主动等待这个调用的结果
-异步是">
+<meta name="description" content="这个家伙真的很懒">
 <meta property="og:type" content="article">
 <meta property="og:title" content="llDDlDDDDDD">
 <meta property="og:url" content="http://yoursite.com/2016/07/04/llDDlDDDDDD/index.html">
 <meta property="og:site_name" content="Jiawei'Blog">
-<meta property="og:description" content="node.js的优点
-Nodejs基于Javascript语言
-统一公共类库，代码标准化
-Nodejs选择了目前最快的浏览器内核V8做为执行引擎
-Nodejs的社区非常活跃
-
-NODE概念
-什么是回调
-异步编程基本的方法，需要异步处理的时候一般采用后续传递的方式。
-将后续逻辑作为函数参数中作为起始函数的参数。
-
-同步和异步
-同步是指发起调用之后主线程只能挂起,调用者主动等待这个调用的结果
-异步是">
-<meta property="og:image" content="http://7xjf2l.com2.z0.glb.qiniucdn.com/nodeeat.jpg">
-<meta property="og:updated_time" content="2016-07-04T09:52:12.163Z">
+<meta property="og:description" content="这个家伙真的很懒">
+<meta property="og:updated_time" content="2016-07-04T09:53:42.067Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="llDDlDDDDDD">
-<meta name="twitter:description" content="node.js的优点
-Nodejs基于Javascript语言
-统一公共类库，代码标准化
-Nodejs选择了目前最快的浏览器内核V8做为执行引擎
-Nodejs的社区非常活跃
-
-NODE概念
-什么是回调
-异步编程基本的方法，需要异步处理的时候一般采用后续传递的方式。
-将后续逻辑作为函数参数中作为起始函数的参数。
-
-同步和异步
-同步是指发起调用之后主线程只能挂起,调用者主动等待这个调用的结果
-异步是">
-<meta name="twitter:image" content="http://7xjf2l.com2.z0.glb.qiniucdn.com/nodeeat.jpg">
+<meta name="twitter:description" content="这个家伙真的很懒">
 
 
 
@@ -339,44 +298,7 @@ NODE概念
       
 
       
-        <a id="more"></a>
-<h2 id="node-js的优点"><a href="#node-js的优点" class="headerlink" title="node.js的优点"></a>node.js的优点</h2><ul>
-<li>Nodejs基于Javascript语言</li>
-<li>统一公共类库，代码标准化</li>
-<li>Nodejs选择了目前最快的浏览器内核V8做为执行引擎</li>
-<li>Nodejs的社区非常活跃</li>
-</ul>
-<h2 id="NODE概念"><a href="#NODE概念" class="headerlink" title="NODE概念"></a>NODE概念</h2><p><img src="http://7xjf2l.com2.z0.glb.qiniucdn.com/nodeeat.jpg" class="full-image"></p>
-<h2 id="什么是回调"><a href="#什么是回调" class="headerlink" title="什么是回调"></a>什么是回调</h2><ul>
-<li>异步编程基本的方法，需要异步处理的时候一般采用后续传递的方式。</li>
-<li>将后续逻辑作为函数参数中作为起始函数的参数。</li>
-</ul>
-<h2 id="同步和异步"><a href="#同步和异步" class="headerlink" title="同步和异步"></a>同步和异步</h2><ul>
-<li>同步是指发起调用之后主线程只能挂起,调用者主动等待这个调用的结果</li>
-<li>异步是指发起调用之后主线程可以做别的事情,被调用者通过通知来告知调用者结果</li>
-</ul>
-<h2 id="什么是阻塞-非阻塞"><a href="#什么是阻塞-非阻塞" class="headerlink" title="什么是阻塞/非阻塞"></a>什么是阻塞/非阻塞</h2><ul>
-<li>针对内核来说的,向内核发起请求的时候不会阻塞主线程的执行</li>
-<li>非阻塞是实现异步的前置条件</li>
-</ul>
-<h2 id="什么是IO"><a href="#什么是IO" class="headerlink" title="什么是IO"></a>什么是IO</h2><ul>
-<li>Input(输入) 从文件系统中读取文件</li>
-<li>Output(输出) 向文件系统写入文件</li>
-</ul>
-<h2 id="什么是单线程-多线程"><a href="#什么是单线程-多线程" class="headerlink" title="什么是单线程/多线程"></a>什么是单线程/多线程</h2><ul>
-<li>单线程指程序按顺序执行，前面流程执行完毕之后后面的流程才能执行到</li>
-<li>多线程指同时可以执行多个任务，比如一边看电视，一边睡觉,通过系统线程上下文切换来弥补同步式IO调用时的时间开销</li>
-<li>Node单线程指的是主线程是单线程的，所有阻塞的部分交给一个线程池处理，然后这个主线程通过一个队列跟线程池协作</li>
-</ul>
-<h2 id="什么是事件"><a href="#什么是事件" class="headerlink" title="什么是事件"></a>什么是事件</h2><ul>
-<li>是指发生了某种事情，这件事情会触发其它动作的发生</li>
-</ul>
-<h2 id="什么是事件循环"><a href="#什么是事件循环" class="headerlink" title="什么是事件循环"></a>什么是事件循环</h2><ul>
-<li>管理异步动作、定时器和回调函数的机制叫事件环</li>
-<li>异步的时候就会压入到这个队列，然后不停读取事件，事件发生后会把对应的回调加入队列</li>
-<li>队列按加入的顺序依次执行，由普通函数和回调函数组成。</li>
-</ul>
-
+        
       
     </div>
 
@@ -510,7 +432,7 @@ NODE概念
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#node-js的优点"><span class="nav-number">1.</span> <span class="nav-text">node.js的优点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NODE概念"><span class="nav-number">2.</span> <span class="nav-text">NODE概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是回调"><span class="nav-number">3.</span> <span class="nav-text">什么是回调</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#同步和异步"><span class="nav-number">4.</span> <span class="nav-text">同步和异步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是阻塞-非阻塞"><span class="nav-number">5.</span> <span class="nav-text">什么是阻塞/非阻塞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是IO"><span class="nav-number">6.</span> <span class="nav-text">什么是IO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是单线程-多线程"><span class="nav-number">7.</span> <span class="nav-text">什么是单线程/多线程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是事件"><span class="nav-number">8.</span> <span class="nav-text">什么是事件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是事件循环"><span class="nav-number">9.</span> <span class="nav-text">什么是事件循环</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>
